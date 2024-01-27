@@ -1,0 +1,66 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.ContainerForm{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.InputContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.error{
+  color: red;
+  font-size: 12px;
+}
+
+.ContainerList {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  overflow-x: auto;
+  max-height: 200px; 
+  width: 100%;
+  padding: 10px; 
+  border: 1px solid #ccc; 
+}
+
+.tabela{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tabela th{
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+}
+
+.tabela td{
+  padding: 10px;
+  text-align: center;
+}
+
+.tabela tr:nth-child(even){
+  background-color: #eee;
+}
+
+.tabela tr:hover{
+  background-color: #ccc;
+}
